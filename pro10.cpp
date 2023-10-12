@@ -35,7 +35,6 @@ int sumAllMatrixNumbers(int arr[3][3], short rows, short cols){
     return sum;
 }
 
-
 void printMatrix(int arr[3][3], short rows, short cols){
 
     for(int i = 0; i < rows; i++){
