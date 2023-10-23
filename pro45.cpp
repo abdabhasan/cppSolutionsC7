@@ -26,6 +26,7 @@ string joinString(vector <string> vString, string delimeter){
     return s1.substr(0, s1.length() - delimeter.length());
 }
 
+
 sClient readNewClient(){
 
     sClient client;
