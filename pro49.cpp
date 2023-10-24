@@ -124,7 +124,7 @@ int main(){
     string accountNumber = readClientAccountNumber();
 
     if(findClientByAccountNumber(accountNumber, client))
-        printClientCard(client);
+        printClientRecord(client);
     else
         cout << "\nClient with Account Nubmer (" << accountNumber << ") NOT found";
 
